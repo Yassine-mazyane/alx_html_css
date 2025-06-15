@@ -181,3 +181,101 @@ button {
   font-size: 16px;
   color: #ece4ff;
 }
+
+/**********************************************************/
+
+.tutorials {
+  color: #071629;
+  padding: 87px 0;
+}
+
+.tutorials_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.tutorials_cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.tutorials_h2 {
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 75px;
+  grid-column: span 4;
+  text-align: center;
+}
+
+.tutorials_h2 strong {
+  color: #c271ff;
+}
+
+.flex_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tutorials_cards {
+  padding: 16px;
+}
+
+.tutorials_cards h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 18px;
+  margin-bottom: 7.5px;
+}
+
+.tutorials_cards p {
+  font-size: 14px;
+  color: rgba(7, 22, 41, 0.516);
+  margin-bottom: 15px;
+}
+
+.tutorials_cards h4 {
+  font-size: 14px;
+  color: #c271ff;
+  font-weight: 600;
+}
+
+.preview_img {
+  width: 255px;
+  height: 155px;
+}
+
+.rate_img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.img_wrapper {
+  position: relative;
+}
+
+.fa-circle-play {
+  position: absolute;
+  left: 35%;
+  top: 35%;
+  font-size: 36px;
+  color: #c271ff !important;
+}
+
+.min_stars {
+  margin-top: 15px;
+}
+
+.min_stars p,
+.fa-star {
+  color: #c271ff !important;
+  font-size: 14px;
+}
+
+.min_stars p {
+  margin-bottom: 0;
+}
+
+.flex_container.stars div:last-child i {
+  color: #d8d8d8 !important;
+}
