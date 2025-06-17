@@ -381,3 +381,49 @@ button {
   font-size: 15px;
   color: #555;
 }
+/***************************************************/
+footer {
+  background-color: #071629;
+  padding: 40px 20px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+footer section {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+footer section > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+footer img {
+  width: 120px;
+  height: auto;
+}
+
+footer i {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+footer i:hover {
+  color: #f1c40f;
+}
+
+footer p {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #aaa;
+}
+
