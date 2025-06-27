@@ -15,16 +15,26 @@
       crossorigin="anonymous"
     ></script>
 
-    <link rel="stylesheet" href="7-styles.css" />
+    <link rel="stylesheet" href="8-styles.css" />
     <link rel="stylesheet" href="./holberton_school-icon/style.css" />
     <title>Headphones</title>
   </head>
   <body>
     <header>
       <nav class="container">
+        <i
+          class="holberton_school-icon holberton_school-icon-menu menu_icon"
+        ></i>
+        <span class="x hidden menu_icon">X</span>
         <img class="logo" src="./images/logo_headphones.png" alt="logo" />
 
-        <ul>
+        <ul class="desktop_nav">
+          <li><a href="#">What We Do</a></li>
+          <li><a href="#">Our Result</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+
+        <ul class="mobile_nav hidden">
           <li><a href="#">What We Do</a></li>
           <li><a href="#">Our Result</a></li>
           <li><a href="#">Contact Us</a></li>
@@ -143,7 +153,7 @@
         <section class="footer">
           <div class="footer_container container">
             <div class="logo_icon">
-              <img class="logo" src="images/logo_headphones.png" alt="logo" />
+              <img class="logo" src="./images/logo_headphones.png" alt="logo" />
               <div class="flex_container social_media">
                 <i class="holberton_school-icon-ic_facebook"></i>
                 <i class="holberton_school-icon-ic_twitter"></i>
@@ -155,5 +165,7 @@
         </section>
       </footer>
     </main>
+
+    <script src="./8-script.js"></script>
   </body>
 </html>
